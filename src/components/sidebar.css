@@ -1,0 +1,56 @@
+
+.sidenav .ps-menu-button {
+  /* position: absolute;  */
+  /* left: -140px; */
+  transform: translateX(-146px);
+  margin-bottom: 0.6rem; 
+  transition: 0.3s; /* Add transition on hover */
+  padding: 15px; /* 15px padding */
+  width: 200px; /* Set a specific width */
+  text-decoration: none; /* Remove underline */
+  font-size: 20px; /* Increase font size */
+  color: white; /* White text color */
+  border-radius: 0 5px 5px 0; /* Rounded corners on the top right and bottom right side */
+}
+.ps-menuitem-root{
+  margin-bottom: 0.6rem;
+}
+
+.css-1t8x7v1:hover {
+  left: 8rem;
+  /* position: absolute; */
+  
+}
+
+
+
+/* The about link: 20px from the top with a green background */
+#addbook {
+  top: 20px;
+  background-color: #04AA6D;
+}
+
+#deletebook {
+  top: 80px;
+  background-color: #2196F3; /* Blue */
+}
+
+#updatebook {
+  top: 140px;
+  background-color: #f44336; /* Red */
+}
+
+#listrequest {
+  top: 260px;
+  background-color: #555 /* Light Black */
+}
+
+#issuerequest {
+  top: 140px;
+  background-color: #fd9801 /* Light Black */
+}
+
+#allbooks {
+  top: 200px;
+  background-color: #06f3fc /* Light Black */
+}

@@ -1,0 +1,30 @@
+h1 {
+    
+    text-align: center;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 5rem;
+    background: linear-gradient(40deg, #1f1d1f, #030303, #6b6d6d, #4d3f22);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+  }
+h3{
+    text-align: center;
+    margin: 0;
+    font-family: "Roboto Condensed", sans-serif;
+    font-size: 1.5rem;
+    background: black;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
+}
+ .centeredImage {
+    position: absolute;
+    
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    /* Adjust the width and height based on your image dimensions */
+}

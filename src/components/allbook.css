@@ -1,0 +1,51 @@
+.CustomBooksTable-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 0px; 
+  }
+   
+  /* Table styles */
+  .CustomBooksTable-table {
+    width: 40%; /* Set the width of the table */
+    max-width: 55%; /* Ensure the table doesn't exceed the container's width */
+    
+  }
+   
+  .responsive-table {
+    width: 100%;
+  }
+   
+  .responsive-table th,
+  .responsive-table td {
+    text-align: left;
+    padding: 8px;
+  }
+   
+  .responsive-table th {
+    background-color: #0f0f0f;
+    color: white;
+  }
+   
+  .responsive-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+   
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .responsive-table {
+      overflow-y: hidden;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+    }
+   
+    .responsive-table::-webkit-scrollbar {
+      display: none;
+    }
+   
+    .responsive-table th,
+    .responsive-table td {
+      padding: 6px;
+    }
+  }
